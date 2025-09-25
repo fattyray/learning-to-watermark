@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\caption{GPT-J}
+\label{tab:gptj}
+\begin{tabular}{lccccccc}
+\toprule
+\multirow{2}{*}{Method} & \multicolumn{2}{c}{No Attack} & \multicolumn{3}{c}{Dipper Attack} & \multicolumn{2}{c}{Text Quality} \\
+ & AUROC & Best F1 & TPR@10 & AUROC & Best F1 & Perplexity & Semantic Similarity \\
+\midrule
+kgw-1 & 1.00000 & 1.00000 & 0.800 & 0.93668 & 0.87125 & 16.5485 & 0.4941 \\
+unigram & 1.00000 & 1.00000 & 0.944 & 0.97938 & 0.94586 & 13.0226 & 0.4634 \\
+exp-edit & 0.99996 & 0.99701 & 0.860 & 0.93651 & 0.88377 & 21.8741 & 0.4498 \\
+sweet & 1.00000 & 1.00000 & 0.878 & 0.94406 & 0.88777 & 15.2203 & 0.5049 \\
+TS-watermark & 1.00000 & 1.00000 & 0.822 & 0.93150 & 0.86068 & 11.7829 & 0.5220 \\
+our-wm-kgw1 & 1.00000 & 1.00000 & 0.858 & 0.94813 & 0.88303 & 11.6877 & 0.5286 \\
+our-wm-kgw0 & 1.00000 & 1.00000 & 0.926 & 0.96238 & 0.91952 & 9.5571 & 0.4822 \\
+\bottomrule
+\end{tabular}
+\end{table}

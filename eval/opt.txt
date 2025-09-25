@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\caption{OPT}
+\label{tab:opt}
+\begin{tabular}{lcccccccc}
+\toprule
+\multirow{2}{*}{Method} & \multicolumn{3}{c}{No Attack} & \multicolumn{3}{c}{Dipper Attack} & \multicolumn{2}{c}{Text Quality} \\
+ & TPR@2 & AUROC & Best F1 & TPR@10 & AUROC & Best F1 & Perplexity & Semantic Similarity \\
+\midrule
+kgw-1 & 0.998 & 0.99990 & 0.99900 & 0.910 & 0.96987 & 0.91465 & 20.5234 & 0.5472 \\
+unigram & 1.000 & 1.00000 & 1.00000 & 0.962 & 0.98217 & 0.95238 & 17.6761 & 0.5313 \\
+exp-edit & 0.972 & 0.98742 & 0.98008 & 0.790 & 0.90527 & 0.83871 & 23.9298 & 0.5046 \\
+sweet & 1.000 & 1.00000 & 1.00000 & 0.924 & 0.96955 & 0.92245 & 17.9301 & 0.5554 \\
+TS-watermark & 0.996 & 0.99973 & 0.99598 & 0.810 & 0.93179 & 0.85076 & 14.0804 & 0.5645 \\
+our-wm-kgw1 & 1.000 & 1.00000 & 1.00000 & 0.852 & 0.94034 & 0.87810 & 13.6205 & 0.5701 \\
+our-wm-kgw0 & 1.000 & 1.00000 & 1.00000 & 0.954 & 0.98326 & 0.94190 & 13.6238 & 0.5735 \\
+\bottomrule
+\end{tabular}
+\end{table}
