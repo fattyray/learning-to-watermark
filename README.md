@@ -5,7 +5,9 @@ This is the source code for the LTW watermark algorithms presented in the paper.
 ## In summary, our contributions are as follows:
 
 • Analysis: We find existing selective watermarking method underexplored potentially informative factors that may be used as criterions for selection. We are the first to propose the method of utilizing a trained network to make decisions on whether to selectively apply watermark, unveiling a new perspective of selective watermarking strategies.
+
 • Method: We propose LTW, a novel selective watermarking framework that uses a trained lightweight network for selectively watermarking LLMs. We introduce LTW-1 and LTW-0, by applying our selective framework to baseline watermark KGW and Unigram.
+
 • Evaluation: We conducted extensive experiments across multiple models, demonstrating the high text quality and detectability of our methods. We surpass previous watermarking methods in text quality, having the least perplexity while without compromising detectability.
 
 
