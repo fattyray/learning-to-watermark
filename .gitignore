@@ -4,7 +4,6 @@ datasets/
 
 # Ignore all contents of the models directory
 models/
-ckpt/
 __pycache__/train_selector.cpython-39.pyc
 utils/__pycache__/selector_network.cpython-39.pyc
 utils/__pycache__/watermark_utils.cpython-39.pyc
