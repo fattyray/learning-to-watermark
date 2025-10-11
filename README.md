@@ -22,3 +22,16 @@ As a quickstart, you can find the plots and code for the tables in our experimen
 python train.py
 ```
 
+## Reference BibTeX
+
+```
+@inproceedings{chenrui25neurips,
+  title={Learning to Watermark: A Selective Watermarking Framework for Large Language Models via Multi-Objective Optimization},
+    author = {Chenrui Wang and Junyi Shu and Billy Chiu  and Yu Li and Saleh Alharbi and Min Zhang and Jing Li},
+  booktitle = {The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)},
+  year={2025}
+}
+
+
+```
+
